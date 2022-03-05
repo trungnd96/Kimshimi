@@ -262,7 +262,7 @@ a:focus {
 	font-size: 5vw;
 	margin: 10px 0;
 	line-height: 1;
-	position: center;
+	position: relative;
 }
 
 .content__title-sub {
