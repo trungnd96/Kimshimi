@@ -26,7 +26,7 @@ main {
 body {
 	margin: 0;
 	--color-text: #d05400;
-    --color-bg: #0c0c0c;
+    --color-bg: #dfdede;
     --color-link: #6b5537;
 	--color-link-hover: #fff;
 	--color-content-title-sub: #6b5537;
@@ -261,7 +261,7 @@ a:focus {
 	font-weight: 200;
 	font-size: 5vw;
 	margin: 10px 0;
-	line-height: 1;
+	line-height: 2;
 	position: relative;
 }
 
