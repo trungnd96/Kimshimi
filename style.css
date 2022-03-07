@@ -25,13 +25,12 @@ main {
 
 body {
 	margin: 0;
-	--color-text: #d05400;
-    --color-bg: #dfdede;
+	--color-text: #f04f1e;
+    --background-image: url('img/img3.jpg');
     --color-link: #6b5537;
 	--color-link-hover: #fff;
-	--color-content-title-sub: #6b5537;
+	--color-content-title-sub: #f78063;
     color: var(--color-text);
-    background-color: var(--color-bg);
     --cursor-stroke: #6b5537;
     --cursor-fill: none;
     --cursor-stroke-width: 1px;
@@ -261,7 +260,7 @@ a:focus {
 	font-weight: 200;
 	font-size: 5vw;
 	margin: 10px 0;
-	line-height: 2;
+	line-height: 1;
 	position: relative;
 }
 
@@ -269,7 +268,15 @@ a:focus {
 	color: var(--color-content-title-sub);
 	font-size: 2.5vw;
 	display: block;
-	margin-left: 3vw;
+	margin: 10px 0;
+	line-height: 1;
+}
+
+.content__title-sub1 {
+	color: var(--color-content-title-sub);
+	font-size: 2.5vw;
+	display: block;
+	margin: 10px 0;
 	line-height: 0.5;
 }
 
