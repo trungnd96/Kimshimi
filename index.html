@@ -18,11 +18,14 @@ var supportsCssVars = function supportsCssVars() {
 supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 	</head>
 	<body class="demo-1 loading">
-		<main>
-			<audio autoplay loop>
-				<source src="img/audio1.mp3" type="audio/mpeg">
+		<audio autoplay loop>
+				<source src="img/Only_You.mp3" type="audio/mpeg">
 			  Your browser does not support the audio element.
 			</audio>
+			<audio id="player" src="img/Only_You.mp3"></audio>
+			<div> 
+			<button onclick="document.getElementById('player').play()">🎵</button> 
+			</div>
 			<div class="message">Please view this demo on a desktop to see the effect.</div>
 			<div class="frame">
 			</div>
